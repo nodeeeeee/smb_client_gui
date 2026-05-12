@@ -178,7 +178,7 @@ class AddAccountDialog(QDialog):
         layout.addLayout(btn_layout)
         
     def get_data(self):
-        return self.user_input.text().strip(), self.pass_input.text().strip()
+        return self.user_input.text().strip(), self.pass_input.text()
 
 class SettingsPage(QWidget):
     def __init__(self, main_window):
